@@ -10,6 +10,10 @@ module.exports = {
         '@typescript-eslint/no-shadow': ['error'],
         'no-shadow': 'off',
         'no-undef': 'off',
+        'padding-line-between-statements': [
+          'error',
+          {blankLine: 'always', prev: '*', next: 'return'},
+        ],
       },
     },
   ],
